@@ -1,0 +1,61 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.container_box
+{
+    width:300px;
+    height:630px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.header h3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_balance
+{
+    display: flex;
+    flex-direction: column;
+}
+.header_balance_amount p
+{
+    margin-top: 1px;
+}
+.history
+{
+    width: 80%;
+    height: 60px;
+    
+    margin-left: 25px;
+}
+.history_box
+{
+    display: flex;
+   justify-content: space-between;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.history_box h4{
+    margin-left: 10px;
+}
+.history_box .income p{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.history_box .expenses p{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parentlist
+{
+    
+    border-right:4px solid green;
+}

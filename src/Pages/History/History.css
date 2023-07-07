@@ -1,0 +1,15 @@
+.parentlist{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+margin-right: 20px;
+}
+.listitems
+{
+    height: 100px;
+    overflow-y: scroll;
+    width: 100%;
+}
+.listitems::-webkit-scrollbar {
+    display: none;
+  }
